@@ -1,0 +1,44 @@
+<!-- Сайт розроблено студентом Кирило Мартиненко, група 4-14 -->
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoClean Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚗 AutoClean</h1>
+    <nav>
+        <a href="index.html">Бронювання</a>
+        <a href="services.html">Послуги</a>
+    </nav>
+</header>
+
+<main class="container fade-in">
+
+<h2>Онлайн запис</h2>
+
+<label>Послуга</label>
+<select id="service"></select>
+
+<label>Дата</label>
+<input type="date" id="date">
+
+<label>Час</label>
+<div id="timeSlots" class="slots"></div>
+
+<button onclick="book()">Підтвердити бронювання</button>
+
+</main>
+
+<footer>
+    Кирило Мартиненко | Група 4-14
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
